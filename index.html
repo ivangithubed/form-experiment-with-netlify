@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Представтесь, будь ласка</h1>
+        <form name="intro" method="POST" data-netlify="true" action="/thank-you.html">
+            <p>
+                <label>Ваше ім'я: <input type="text" name="name" required /></label>
+            </p>
+            <p>
+                <label>Ваш Email: <input type="email" name="email" required /></label>
+            </p>
+            <p>
+                <label>Повідомлення: <textarea name="message" required></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Надіслати</button>
+            </p>
+        </form>
+        <hr>
+        <a href="./comment.html">Залишити коментар</a>
+    </div>
+</body>
+</html>

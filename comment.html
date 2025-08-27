@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Залишити коментар</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Залишити коментар</h1>
+        <form name="comment" method="POST" data-netlify="true" enctype="multipart/form-data" action="/thank-you.html">
+            <p>
+                <label>Ваше ім'я: <input type="text" name="author" required /></label>
+            </p>
+            <p>
+                <label>Ваш коментар: <textarea name="comment" required></textarea></label>
+            </p>
+            <p>
+                <label>Прикріпити файл: <input type="file" name="file" /></label>
+            </p>
+            <p>
+                <button type="submit">Надіслати</button>
+            </p>
+        </form>
+        <hr>
+        <a href="/">На головну</a>
+    </div>
+</body>
+</html>
